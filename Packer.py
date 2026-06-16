@@ -1,6 +1,6 @@
 import os
 
-class MarvellousPacker:
+class MarcoTechPacker:
     def __init__(self, A, B):
         self.PackName = A
         self.DirName = B
@@ -8,7 +8,7 @@ class MarvellousPacker:
     def PackingActivity(self):
         try:
             print("--------------------------------------------------------")
-            print("----------- Marvellous Packer Unpacker -----------------")
+            print("----------- MarcoTech Packer Unpacker -----------------")
             print("--------------------------------------------------------")
             print("------------------ Packing Activity --------------------")
             print("--------------------------------------------------------")
@@ -74,7 +74,7 @@ class Packer:
 
         PackName = input("Enter the name of file that you want to create for packing: ")
 
-        mobj = MarvellousPacker(PackName, DirName)
+        mobj = MarcoTechPacker(PackName, DirName)
         mobj.PackingActivity()
 
 
