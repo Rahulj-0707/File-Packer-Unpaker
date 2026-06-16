@@ -1,6 +1,6 @@
 import os
 
-class MarvellousUnpacker:
+class MarcoTechUnpacker:
 
     def __init__(self, A):
         self.PackName = A
@@ -9,7 +9,7 @@ class MarvellousUnpacker:
 
         try:
             print("--------------------------------------------------------")
-            print("----------- Marvellous Packer Unpacker -----------------")
+            print("----------- MarcoTech Packer Unpacker -----------------")
             print("--------------------------------------------------------")
             print("----------------- UnPacking Activity -------------------")
             print("--------------------------------------------------------")
@@ -79,7 +79,7 @@ class Unpacker:
             "Enter the name of file which contains packed data : "
         )
 
-        mobj = MarvellousUnpacker(PackName)
+        mobj = MarcoTechUnpacker(PackName)
         mobj.UnpackingActivity()
 
 
